@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color:rgb(0, 102, 255);
+
+}
+.center {text-align: center;}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.heading{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.picture-left{float: left;
+    margin: 5px;
+}
+.picture-right{float: right;
+    margin: 5px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.navigationbar{
+    /* display: flex !important;
+    flex:auto; */
+}
+.navigationbar > .nav{
+    /* flex-direction: row; */
+    list-style: none;
+    display:flex;
+
+}
+.navigationbar > .nav > .link {
+    width: 200px;
+    text-align: center;
+}
